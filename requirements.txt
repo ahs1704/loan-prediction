@@ -6,3 +6,4 @@ xgboost
 scipy
 matplotlib
 seaborn
+statsmodels
