@@ -57,15 +57,17 @@ Proyek ini bertujuan untuk membangun model machine learning yang mampu mempredik
 
 ---
 
-## 🚀 Cara Menjalankan
+# Clone repositori
+git clone https://github.com/ahs1704/loan-prediction.git
+cd loan-prediction
 
-```bash
-# Clone repo
-git clone https://github.com/username/loan-default-prediction.git
-cd loan-default-prediction
+# (Opsional) Buat dan aktifkan virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Gunakan 'venv\Scripts\activate' di Windows
 
-# Instal dependensi
+# Install semua dependensi
 pip install -r requirements.txt
 
-# Jalankan skrip utama (jika ada)
-python main.py
+# Jalankan Jupyter Notebook
+jupyter notebook
+
